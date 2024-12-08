@@ -1,0 +1,33 @@
+.care {
+    padding: 140px 160px;
+    position: relative;
+    &_title {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        & span {
+            color: #ffb800;
+        }
+        &-text {
+            max-width: 550px;
+            font-size: 40px;
+        }
+    }
+
+    &_info {
+        max-width: 930px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        &-elem {
+            font-size: 25px;
+        }
+    }
+
+    &_wrapper {
+        display: flex;
+        align-items: end;
+        gap: 10%;
+    }
+}

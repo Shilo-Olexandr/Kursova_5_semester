@@ -1,0 +1,613 @@
+@media (max-width: 1440px) {
+    .top {
+        padding: 0px 100px;
+    }
+    .main {
+        padding: 120px 0px 130px 0px;
+    }
+    .dog {
+        width: 500px;
+    }
+
+    .round {
+        right: 35px;
+        width: 520px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .main {
+        padding: 60px 0px 100px 0px;
+    }
+    .dog {
+        right: 40px;
+        width: 400px;
+    }
+
+    .round {
+        right: 40px;
+        width: 360px;
+    }
+
+    .advantages {
+        padding: 70px 100px 70px 100px;
+        &_title {
+            font-size: 26px;
+        }
+
+        &_list {
+            &-item {
+                &-info {
+                    &-title {
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+                    &-subtitle {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .things {
+        padding: 70px 100px;
+        &_tabs {
+            gap: 20px;
+            & img {
+                top: 16px;
+                right: -70px;
+            }
+            &-tab {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .care {
+        padding: 80px 100px;
+        &_title {
+            &-text {
+                font-size: 35px;
+            }
+        }
+
+        &_info {
+            gap: 30px;
+            &-elem {
+                font-size: 20px;
+            }
+        }
+
+        &_wrapper {
+            display: flex;
+            align-items: end;
+            gap: 5%;
+        }
+    }
+    .charity {
+        gap: 70px;
+        padding: 70px 100px;
+        &_title {
+            font-size: 35px;
+        }
+
+        &_info {
+            gap: 40px;
+            &-item {
+                &-title {
+                    font-size: 50px;
+                }
+                &-subtitle {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        &_button {
+            max-width: 300px;
+            padding: 15px 25px;
+            font-size: 25px;
+        }
+    }
+
+    .footer {
+        padding: 60px 100px 0px 100px;
+        background-position: 400px 0;
+        &_title {
+            font-size: 35px;
+            margin-bottom: 60px;
+        }
+
+        &_form {
+            max-width: 800px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 60px;
+            &-input {
+                width: 300px;
+                font-size: 25px;
+                padding-bottom: 25px;
+            }
+            &-textarea {
+                width: 90%;
+                font-size: 25px;
+                padding-bottom: 10px;
+            }
+
+            &-checks {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                &-item {
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+                    &-text {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+
+        &_bottom {
+            padding: 40px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &-logo {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 13px;
+                &-text {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+
+            &-privacy {
+                font-size: 18px;
+            }
+
+            &-contact {
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+                gap: 5px;
+                color: #000;
+                & a {
+                    color: #000;
+                    &:hover {
+                        font-weight: bold;
+                        text-underline-offset: 8px;
+                        text-decoration-color: rgba(0, 0, 0, 0.16);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .burger {
+        display: block;
+    }
+    .header {
+        padding: 40px 0px;
+        &_nav {
+            display: none;
+        }
+    }
+    .main {
+        padding: 30px 0px 100px 0px;
+    }
+    .dog {
+        display: none;
+    }
+
+    .round {
+        display: none;
+    }
+
+    .advantages {
+        &_title {
+            font-size: 24px;
+        }
+
+        &_list {
+            &-item {
+                &-info {
+                    &-title {
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+                    &-subtitle {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    .things {
+        padding: 70px 100px;
+        &_title {
+            font-size: 24px;
+        }
+        &_tabs {
+            gap: 10px;
+            & img {
+                top: 11px;
+                right: -70px;
+            }
+            &-tab {
+                font-size: 20px;
+            }
+        }
+        &_goods {
+            &-item {
+                &-img {
+                    margin-top: 30px !important;
+                }
+                &-tags {
+                    gap: 7px;
+                    &-tag {
+                        gap: 7px;
+                        &-round {
+                            padding-top: 4px;
+                            font-size: 14px;
+                            width: 30px;
+                            height: 30px;
+                        }
+                        &-pink {
+                            width: 30px;
+                            height: 30px;
+                        }
+                        &-orange {
+                            width: 30px;
+                            height: 30px;
+                        }
+                        &-blue {
+                            width: 30px;
+                            height: 30px;
+                        }
+                        &-green {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .care {
+        padding: 70px 100px;
+        &_title {
+            &-text {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            &-img {
+                display: none;
+            }
+        }
+    }
+    .charity {
+        gap: 70px;
+        padding: 70px 100px;
+        align-items: center;
+        &_title {
+            text-align: center;
+            font-size: 35px;
+        }
+
+        &_info {
+            flex-direction: column;
+            gap: 40px;
+        }
+    }
+}
+
+@media (max-width: 920px) {
+    .advantages {
+        &_list {
+            flex-direction: column;
+        }
+    }
+
+    .care {
+        &_title {
+            &-text {
+            }
+        }
+
+        &_info {
+            &-elem {
+            }
+        }
+
+        &_wrapper {
+            .care_balls {
+                display: none;
+            }
+        }
+    }
+
+    .footer {
+        padding: 50px;
+
+        &_form {
+            gap: 50px;
+            &-input {
+                width: 250px;
+                font-size: 20px;
+            }
+            &-textarea {
+                width: 100%;
+                font-size: 20px;
+            }
+
+            &-checks {
+                &-item {
+                    &-text {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        &_bottom {
+            &-logo {
+                &-text {
+                }
+            }
+
+            &-privacy {
+                font-size: 16px;
+            }
+            &-arrow {
+                width: 20px;
+            }
+
+            &-contact {
+                & img {
+                    width: 40px;
+                }
+                & a {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .things {
+        &_goods {
+            &-item {
+                padding: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 645px) {
+    .header {
+        gap: 10px;
+        &_logo {
+            &-title {
+                font-size: 14px;
+            }
+        }
+        &_cart {
+            &-title {
+                font-size: 14px;
+            }
+        }
+    }
+    .top {
+        padding: 0px 30px;
+    }
+
+    .advantages {
+        padding: 50px;
+    }
+    .things {
+        padding: 50px;
+        &_tabs {
+            gap: 5px;
+            & img {
+                padding: 5px;
+                width: 30px;
+                top: 16px;
+                right: -40px;
+            }
+            &-tab {
+                border-radius: 15px;
+                padding: 10px;
+                font-size: 16px;
+            }
+        }
+    }
+    .slick-prev {
+        position: absolute;
+        left: -45px;
+        top: 50%;
+        z-index: 1;
+
+        & img {
+            border-radius: 50px;
+            padding: 10px;
+            background: #fff;
+            border: 2px solid transparent;
+            &:hover {
+                border: 2px solid black;
+            }
+        }
+    }
+
+    .slick-next {
+        position: absolute;
+        right: -23px;
+        top: 50%;
+        z-index: 1;
+
+        & img {
+            border-radius: 50px;
+            padding: 10px;
+            background: #fff;
+            border: 2px solid transparent;
+            &:hover {
+                border: 2px solid black;
+            }
+        }
+    }
+
+    .care {
+        padding: 50px;
+    }
+    .charity {
+        padding: 50px;
+    }
+    .footer {
+        padding: 50px;
+
+        &_form {
+            gap: 50px;
+            &-input {
+                width: 100%;
+                font-size: 20px;
+            }
+            &-textarea {
+                width: 100%;
+                font-size: 20px;
+            }
+
+            &-checks {
+                &-item {
+                    &-text {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        &_bottom {
+            padding-top: 100px;
+            padding-bottom: 0px;
+            position: relative;
+            flex-direction: column;
+            gap: 20px;
+
+            &-privacy {
+                font-size: 16px;
+            }
+            &-arrow {
+                position: absolute;
+                left: 10px;
+                top: 40px;
+                width: 20px;
+            }
+
+            &-contact {
+                & img {
+                    width: 40px;
+                }
+                & a {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .footer_form-checks-item-checkbox + .footer_form-checks-item-text::before {
+        max-width: 25px;
+        max-height: 25px;
+    }
+
+    .footer_form-checks-item-checkbox:checked
+        + .footer_form-checks-item-text::after {
+        content: "";
+        position: absolute;
+        left: 9px;
+        top: 5px;
+        width: 8px;
+        height: 14px;
+        border: solid orange;
+        border-width: 0 4px 4px 0;
+        transform: rotate(45deg);
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 425px) {
+    .top {
+        padding: 0px 20px;
+    }
+    .header_cart {
+        gap: 3px;
+        & img {
+            width: 25px;
+        }
+    }
+    .main {
+        text-align: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .advantages {
+        padding: 50px 20px;
+    }
+    .care {
+        padding: 50px 20px;
+    }
+    .charity {
+        padding: 50px 20px;
+        &_title {
+            font-size: 25px;
+        }
+        gap: 30px;
+
+        &_info {
+            gap: 30px;
+            text-align: center;
+            & img {
+                width: 300px;
+            }
+            &-item {
+                &-title {
+                    font-size: 35px;
+                }
+                &-subtitle {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        &_button {
+            margin-bottom: 20px;
+        }
+    }
+    .things {
+        padding: 50px;
+        &_goods {
+            &-item {
+                &-title {
+                    font-size: 18px;
+                }
+                &-descr {
+                    font-size: 16px;
+                }
+                &-price {
+                    &-title {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 50px 15px;
+    }
+}
