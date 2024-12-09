@@ -1,0 +1,23 @@
+.top {
+    background: rgb(156, 255, 249);
+    background: linear-gradient(
+        148deg,
+        rgba(156, 255, 249, 1) 60%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    padding: 0px 160px;
+    position: relative;
+}
+
+@import "./layout/reset";
+
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/advantages";
+@import "./layout/burger";
+@import "./layout/things";
+@import "./layout/care";
+@import "./layout/charity";
+@import "./layout/footer";
+
+@import "./layout/media";
